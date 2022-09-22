@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let a=parseInt(prompt("first number"));
+let b=parseInt(prompt("second number"));
+let c=parseInt(prompt("third number"));
+
+if((a>b)&&(a>c)){
+    if(b>c){
+        console.log("a is greater then all")
+        console.log("b is greater then c")
+        console.log("c is smaller then all")
+    }else{
+        console.log("a is greater then all")
+        console.log("c is greater then b")
+        console.log("b is smaller then all")
+    }
+}
+
+if((b>a)&&(b>c)){
+    if(a>c){
+        console.log("b is greater then all")
+        console.log("a is greater then c")
+        console.log("c is smaller then all")
+    }else{
+        conole.log("b is greater then all")
+console.log("c is greter then a")
+console.log("a is smaller then all")
+    }
+}
+if((c>a)&&(c>b)){
+    if(b>a){
+        console.log("c is greater all")
+        console.log("b is greater then a")
+        console.log("a is smaller then all")
+    }else{
+        console.log("c is greter then all")
+        console.log("a is greter then b")
+        console.log("b is smaller then all")
+    }
+}   
+else{
+    console.log("give a number")
+}
+
+    </script>
+</body>
+</html>
